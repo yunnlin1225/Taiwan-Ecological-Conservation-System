@@ -196,4 +196,4 @@ ERD 主要以 **Members（會員）**、**Animals（生態動物）** 與 **Mess
 
 詳細的系統操作流程與功能畫面請參考：
 
-👉 [查看完整系統功能展示](docs/SYSTEM_DEMO.md)
+👉 [查看完整系統功能展示](System_demo/)
