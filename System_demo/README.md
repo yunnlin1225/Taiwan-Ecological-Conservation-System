@@ -129,3 +129,36 @@
 搜尋功能提供生態物種的 **多條件查詢**，使用者可依照保育狀態、分布區域及地理位置等條件篩選相關物種。
 
 透過條件式搜尋，可快速縮小查詢範圍並取得符合需求的生態物種資訊。
+
+### 功能操作畫面
+
+<p align="center">
+  <img src="images/search/search_overview.png" width="650">
+</p>
+<p align="center">
+  <b>圖 10　動物搜尋系統</b>
+</p>
+
+系統預設顯示生態動物資料，使用者可輸入動物名稱進行查詢。
+
+<br>
+
+<p align="center">
+  <img src="images/search/search_result.png" width="650">
+</p>
+<p align="center">
+  <b>圖 11　動物搜尋結果</b>
+</p>
+
+輸入查詢條件後，系統會篩選並顯示符合條件的動物資料。
+
+<br>
+
+<p align="center">
+  <img src="images/search/search_no_result.png" width="650">
+</p>
+<p align="center">
+  <b>圖 12　查無符合資料</b>
+</p>
+
+當沒有符合搜尋條件的動物資料時，系統不顯示查詢結果。
