@@ -68,3 +68,58 @@
 典藏系統主要用於管理與呈現生態動物資料，提供物種資訊的新增、分類與瀏覽功能。
 
 每筆動物資料包含 **動物名稱、保育狀態、分布區域及地理位置** 等資訊，讓使用者可以快速了解不同物種的基本資料與保育情況。
+
+### 功能操作畫面
+
+<p align="center">
+  <img src="images/collection/collection_entry.png" width="550">
+</p>
+<p align="center">
+  <b>圖 5　生態動物寶庫入口</b>
+</p>
+
+使用者可由系統首頁進入生態動物寶庫，瀏覽與查詢生態物種資訊。
+
+<br>
+
+<p align="center">
+  <img src="images/collection/collection_overview.png" width="700">
+</p>
+<p align="center">
+  <b>圖 6　生態動物篩選寶庫</b>
+</p>
+
+系統提供縣市、保育等級、動物類型及海拔分類等條件，並搭配地圖呈現物種資訊。
+
+<br>
+
+<p align="center">
+  <img src="images/collection/collection_region_filter.png" width="700">
+</p>
+<p align="center">
+  <b>圖 7　縣市條件篩選</b>
+</p>
+
+使用者可透過下拉選單選擇不同縣市，作為物種資料的篩選條件。
+
+<br>
+
+<p align="center">
+  <img src="images/collection/collection_result.png" width="700">
+</p>
+<p align="center">
+  <b>圖 8　物種篩選結果</b>
+</p>
+
+完成條件設定後，系統會顯示符合條件的物種資料，並於地圖標示相關位置。
+
+<br>
+
+<p align="center">
+  <img src="images/collection/collection_no_result.png" width="700">
+</p>
+<p align="center">
+  <b>圖 9　查無符合條件資料</b>
+</p>
+
+當篩選條件沒有符合的物種資料時，系統會顯示查無資料的結果。
