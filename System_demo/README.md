@@ -240,3 +240,47 @@
 數據分析功能將生態動物資料進行統計與視覺化，透過 **動態表格與長條圖** 呈現不同分類下的物種數量與分布情況。
 
 使用者可透過圖表快速了解生態資料的分布與統計結果，使物種資訊更加直觀。
+
+### 功能操作畫面
+
+<p align="center">
+  <img src="images/analysis/analysis_overview.png" width="650">
+</p>
+<p align="center">
+  <b>圖 19　物種數量分析平台</b>
+</p>
+
+系統提供物種總數、保育狀態與高海拔物種等統計資訊，並以動態表格呈現完整物種資料。
+
+<br>
+
+<p align="center">
+  <img src="images/analysis/analysis_chart.png" width="650">
+</p>
+<p align="center">
+  <b>圖 20　物種數據圖表分析</b>
+</p>
+
+透過長條圖呈現不同動物類別與海拔等級的物種數量，使資料分布更加直觀。
+
+<br>
+
+<p align="center">
+  <img src="images/analysis/analysis_category_filter.png" width="650">
+</p>
+<p align="center">
+  <b>圖 21　資料關鍵字篩選</b>
+</p>
+
+使用者可透過搜尋欄輸入關鍵字，即時篩選表格中的相關物種資料。
+
+<br>
+
+<p align="center">
+  <img src="images/analysis/analysis_pagination.png" width="650">
+</p>
+<p align="center">
+  <b>圖 22　資料表分頁瀏覽</b>
+</p>
+
+當資料筆數較多時，可透過分頁功能切換並瀏覽不同筆數的物種資料。
