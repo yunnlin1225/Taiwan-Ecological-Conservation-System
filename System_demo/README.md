@@ -22,7 +22,7 @@
 ### 功能操作畫面
 
 <p align="center">
-  <img src="images/member/圖片1.png" width="700">
+  <img src="System_demo/images/member/圖片1.png" width="700">
 </p>
 <p align="center">
   <b>圖 1　會員註冊與登入入口</b>
@@ -33,7 +33,7 @@
 <br>
 
 <p align="center">
-  <img src="images/member/圖片2.png" width="750">
+  <img src="System_demo/images/member/圖片2.png" width="750">
 </p>
 <p align="center">
   <b>圖 2　會員資料頁面</b>
@@ -44,7 +44,7 @@
 <br>
 
 <p align="center">
-  <img src="images/member/圖片3.png" width="800">
+  <img src="System_demo/images/member/圖片3.png" width="800">
 </p>
 <p align="center">
   <b>圖 3　會員資料修改</b>
@@ -55,11 +55,10 @@
 <br>
 
 <p align="center">
-  <img src="images/member/圖片4.png" width="800">
+  <img src="System_demo/images/member/圖片4.png" width="800">
 </p>
 <p align="center">
   <b>圖 4　會員註冊</b>
 </p>
 
 新使用者可輸入帳號、密碼、姓名及地址等資料建立會員帳號。
-
