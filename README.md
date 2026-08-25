@@ -107,3 +107,17 @@ PHP 處理結果
 | `Message` | 儲存生態留言板資料 |
 
 透過 PHP 與 MySQL 的整合，系統可依照不同功能需求執行資料的新增、查詢、修改與刪除，並將處理結果動態呈現在網頁介面中。
+
+### ERD 實體關聯模型 (Entity Relationship Diagram)
+
+為了清楚呈現系統中各項資料之間的關係，本系統建立 **ERD（Entity Relationship Diagram）**，用於規劃資料實體、屬性以及實體之間的關聯。
+
+ERD 主要以 **Members（會員）**、**Animals（生態動物）** 與 **Message（留言）** 等資料實體為核心，並透過 Primary Key（PK）與 Foreign Key（FK）建立資料之間的關聯。
+
+透過 ERD 的設計，可在建立實際資料表之前先確認各項資料的結構與關聯方式，並作為後續關聯綱要、資料表及資料庫建置的設計基礎。
+
+#### ERD 圖
+
+<p align="center">
+  <img src="images/database_erd.png" width="550">
+</p>
