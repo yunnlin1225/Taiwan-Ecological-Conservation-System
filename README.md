@@ -117,8 +117,10 @@ ERD 主要以 **Members（會員）**、**Animals（生態動物）** 與 **Mess
 
 透過 ERD 的設計，可在建立實際資料表之前先確認各項資料的結構與關聯方式，並作為後續關聯綱要、資料表及資料庫建置的設計基礎。
 
-#### ERD 圖
-
 <p align="center">
   <img src="images/database_erd.png" width="550">
+</p>
+
+<p align="center">
+  <b>圖 1　ERD 實體關聯模型</b>
 </p>
