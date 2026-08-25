@@ -75,6 +75,7 @@ MySQL
 PHP 處理結果
       ↓
 回傳至網頁顯示
+```
 
 ## 主要功能 (Main Features)
 
