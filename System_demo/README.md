@@ -168,3 +168,69 @@
 生態留言板提供使用者進行留言與交流，讓會員能分享生態相關資訊與內容，
 
 留言資料會記錄留言者、留言日期及留言內容，並透過資料庫進行儲存與管理。
+
+### 功能操作畫面
+
+<p align="center">
+  <img src="images/message/message_overview.png" width="650">
+</p>
+<p align="center">
+  <b>圖 13　生態留言板</b>
+</p>
+
+使用者可輸入姓名與留言內容，分享對生態相關議題的想法。
+
+<br>
+
+<p align="center">
+  <img src="images/message/message_post.png" width="650">
+</p>
+<p align="center">
+  <b>圖 14　新增留言</b>
+</p>
+
+送出留言後，系統會將留言內容與時間顯示於留言板中。
+
+<br>
+
+<p align="center">
+  <img src="images/message/message_newest.png" width="650">
+</p>
+<p align="center">
+  <b>圖 15　留言由新至舊排序</b>
+</p>
+
+留言可依時間由新至舊排列，方便查看最新留言。
+
+<br>
+
+<p align="center">
+  <img src="images/message/message_oldest.png" width="650">
+</p>
+<p align="center">
+  <b>圖 16　留言由舊至新排序</b>
+</p>
+
+使用者亦可切換為由舊至新的排列方式瀏覽留言。
+
+<br>
+
+<p align="center">
+  <img src="images/message/message_delete_confirm.png" width="650">
+</p>
+<p align="center">
+  <b>圖 17　刪除留言確認</b>
+</p>
+
+刪除留言前，系統會顯示確認視窗，避免誤刪留言資料。
+
+<br>
+
+<p align="center">
+  <img src="images/message/message_delete_result.png" width="650">
+</p>
+<p align="center">
+  <b>圖 18　留言刪除完成</b>
+</p>
+
+確認刪除後，系統會移除該筆留言並更新留言板內容。
