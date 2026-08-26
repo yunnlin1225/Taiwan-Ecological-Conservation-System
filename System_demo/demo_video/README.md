@@ -21,7 +21,8 @@
 
 https://github.com/user-attachments/assets/8502b595-bb4c-41cb-b041-8e2e4e94de34
 
-👉 [點此觀看系統高清無壓縮操作展示影片](system_demo_video.mp4)
+
+👉 [點此觀看高清無壓縮系統操作展示影片](system_demo_video.mp4)
 
 
 
