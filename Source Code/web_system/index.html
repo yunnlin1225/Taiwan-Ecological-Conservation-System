@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>首頁</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <style>
+        .card:hover{
+        transform: scale(1.1);
+        }
+        .board:hover{
+        background: #9ec5fe;
+        }
+        .search:hover{
+        background: #a3cfbb;
+        }
+        .collect:hover{
+        background: #f1aeb5;
+        }
+        .multi:hover{
+        background: #ffe69c;
+        }
+        .login:hover{
+        background: #9eeaf9;
+        }
+        .card{
+        transition: .5s;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!--             <div class="row justify-content-around align-items-center vh-100 w-100 mx-auto g-2">
+            </div> -->
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="#">PHP網頁</a>
+                </div>
+            </nav>
+            <div aria-label="breadcrumb" class="position-fixed top-0 end-0 bg-body-secondary bg-opacity-50 sticky-top border border-dark-subtle border-2 rounded-3 fw-bold p-2">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="#board" class="text-decoration-none text-primary-emphasis"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                    </svg>留言板</a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="#search" class="text-decoration-none text-success-emphasis"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>簡易查詢系統</a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="#collections" class="text-decoration-none text-danger-emphasis"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-table" viewBox="0 0 16 16">
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/>
+                    </svg>多功能表格顯示</a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="#multidata" class="text-decoration-none text-warning-emphasis"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-tags-fill" viewBox="0 0 16 16">
+                        <path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                        <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/>
+                    </svg>多重篩選</a></li>
+                </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page"><a href="#login" class="text-decoration-none text-info-emphasis"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
+                        <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                        <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
+                    </svg>會員登入</a></li>
+                </ol>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 me-md-auto" id="board"><a href="board.php" class="text-decoration-none"><div class="card mb-3 border border-primary-subtle border-5 rounded-5 board" >
+                    <div class="row g-0">
+                        <div class="col-md-5 mx-auto">
+                            <img src="img/fallw.png" class="img-fluid rounded-start" height="300" width="300" alt="...">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold fs-1 text-black">留言版</h5>
+                                <p class="card-text fs-3 text-black">實現一個與資料庫交互之留言系統</p>
+                                <p class="card-text"><button type="button" class="btn btn-primary">立即前往</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div></a></div>
+                <div class="col-md-8 ms-md-auto" id="search">
+                    <a href="search.php" class="text-decoration-none"><div class="card mb-3 border border-success-subtle border-5 rounded-5 search" >
+                        <div class="row g-0">
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold fs-1 text-black">簡易查詢系統</h5>
+                                    <p class="card-text fs-3 text-black">實現查詢資料庫資料之系統</p>
+                                    <p class="card-text"><button type="button" class="btn btn-success">立即前往</button></p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="img/search.png" class="img-fluid rounded-start" height="300" width="300" alt="...">
+                            </div>
+                        </div>
+                    </div></a></div>
+                    <div class="col-md-8 me-md-auto" id="collections"><a href="collections.php" class="text-decoration-none"><div class="card mb-3 border border-danger-subtle border-5 rounded-5 collect" >
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="img/bike.png" class="img-fluid rounded-start" height="300" width="300" alt="...">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold fs-1 text-black">多功能表格顯示</h5>
+                                    <p class="card-text fs-3 text-black">實現資料庫多功能篩選之系統</p>
+                                    <p class="card-text"><button type="button" class="btn btn-danger">立即前往</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div></a></div>
+                    <div class="col-md-8 ms-md-auto" id="multidata"><a href="multidata.php" class="text-decoration-none"><div class="card mb-3 border border-warning-subtle border-5 rounded-5 multi" >
+                        <div class="row g-0">
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold fs-1 text-black">多重篩選</h5>
+                                    <p class="card-text fs-3 text-black">實現藥局查詢及地圖功能</p>
+                                    <p class="card-text"><button type="button" class="btn btn-warning">立即前往</button></p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="img/manwomen.png" class="img-fluid rounded-start" height="300" width="300" alt="...">
+                            </div>
+                        </div>
+                    </div></a></div>
+                    <div class="col-md-8 me-md-auto" id="login"><a href="login.php" class="text-decoration-none"><div class="card mb-3 border border-info-subtle border-5 rounded-5 login" >
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="img/login.png" class="img-fluid rounded-start" height="300" width="300" alt="...">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold fs-1 text-black">會員登入</h5>
+                                    <p class="card-text fs-3 text-black">實現資料庫操作之會員系統</p>
+                                    <p class="card-text"><button type="button" class="btn btn-info">立即前往</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div></a></div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </body>
+    </html>
