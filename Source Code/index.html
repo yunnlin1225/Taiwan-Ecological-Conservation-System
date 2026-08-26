@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>生態專案系統首頁</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .card {
+      transition: 0.3s;
+      border: none;
+    }
+    .section-title {
+      font-size: 2.2rem;
+      margin: 40px 0 20px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <header class="mb-4 text-center">
+      <h1 class="fw-bold text-primary">生態動物系統首頁</h1>
+      <p class="lead">整合留言、查詢、會員與多重篩選功能</p>
+    </header>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <!-- 留言板 -->
+      <div class="col">
+        <a href="board.php" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="img/message.png" class="card-img-top" alt="留言板圖片">
+            <div class="card-body">
+              <h5 class="card-title">生態討論區</h5>
+              <p class="card-text">有任何想法或建議都歡迎多來留言系統。</p>
+              <button class="btn btn-outline-primary">進入討論區</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- 簡易查詢 -->
+      <div class="col">
+        <a href="search.php" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="img/search.jpg" class="card-img-top" alt="查詢圖片">
+            <div class="card-body">
+              <h5 class="card-title">生態百科查詢系統</h5>
+              <p class="card-text">查詢資料庫中生態專案的基本資訊。</p>
+              <button class="btn btn-outline-success">進入查詢</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- 多功能表格 -->
+      <div class="col">
+        <a href="collections.php" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="img/collection.jpg" class="card-img-top" alt="表格圖片">
+            <div class="card-body">
+              <h5 class="card-title">物種數據分析平台</h5>
+              <p class="card-text">提供長條圖展示和動態生態資料表格。</p>
+              <button class="btn btn-outline-danger">進入分析</button></button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- 多重篩選 -->
+      <div class="col">
+        <a href="multidata.php" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="img/treasure.jpg" class="card-img-top" alt="多重篩選圖">
+            <div class="card-body">
+              <h5 class="card-title">生態動物寶庫</h5>
+              <p class="card-text">透過分類篩選功能，您可以依據動植物類別、保育等級或棲息環境輕鬆查詢。</p>
+              <button class="btn btn-outline-warning">進入寶庫</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- 會員登入 -->
+      <div class="col">
+        <a href="member.php" class="text-decoration-none text-dark">
+          <div class="card h-100">
+            <img src="img/member.jpg" class="card-img-top" alt="登入圖片">
+            <div class="card-body">
+              <h5 class="card-title">會員註冊/登入</h5>
+              <p class="card-text">操作生態系統需前往登入會員。</p>
+              <button class="btn btn-outline-info">前往登入</button>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
