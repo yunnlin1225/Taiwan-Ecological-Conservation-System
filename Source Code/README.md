@@ -4,7 +4,7 @@
 
 ## 🛠️ 系統架構
 
-- **前端 (Frontend)**：使用 HTML、CSS、JavaScript 與 Bootstrap 建立網站介面與互動功能。
+- **前端 (Frontend)**：使用 HTML、CSS、JavaScript 與 Bootstrap 5 建立網站介面與互動功能。
 - **後端 (Backend)**：使用 PHP 處理會員、搜尋、留言板及資料操作等系統功能。
 - **資料庫 (Database)**：使用 MySQL 儲存與管理會員、生態物種及留言等系統資料。
 
